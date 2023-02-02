@@ -1,0 +1,151 @@
+body{
+    font-family: arial;
+    margin: 0;
+    background: #eee;
+}
+#wrapper{
+    margin: 0 auto;
+    width: 975px;
+    background: #fff;
+}
+#main-navigation{
+    background: #181818;
+    padding: 10px;
+}
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    padding-right: 10px;
+}
+#main-navigation li{
+    display: inline-block;
+    margin left: 20px; 
+}
+#main-navigation a{
+    padding: 6px 10px;
+    text-decoration: none;
+    color:  #fff;
+    text-transform: uppercase;
+}
+#main-navigation a.current:hover{
+    border-radius: 4px;
+    background: #fff;
+    color: #181818;
+}
+#lead-banner{
+    width: 100%;
+}
+#shop{
+    text-align: center;
+    margin: 30px 0;
+}
+#shop h2.product-name{
+    font-size: 16px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+#shop span.product-price{
+    font-size: 58px;
+    display: block;
+}
+#shop a.add-to-bag{
+    text-decoration: none;
+    display: block;
+    color: #8f746c;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 2px solid #af746c;
+    padding: 10px 0;
+    width: 240px;
+    margin: 20px auto;
+}
+#shop a.add-to-bag:hover{
+    color: #fff;
+    background: #8f784c;
+    border: 2px solid #fff;
+}
+#shop img.product{
+    width: 40%;
+}
+#shop h2.product-sale{
+    font-size: 16px;
+    color: red;
+    margin: 0 auto;
+}
+#shop p.about-product{
+    font-size: 14px;
+    width: 600px;
+    text-transform: capitalize;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+#shop h2.offer1{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.rating{
+    padding: 10px;
+}
+.footer{
+    width: 100%;
+}
+#contact{
+    background-color:#fff;
+    text-align: center;
+    margin: 30px 0;
+}
+#contact img.contact-img{
+    width: 50px;
+    margin:10px auto 0 auto;
+}
+#contact h2.name{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+#contact a.about{
+    font-size: 14px;
+    width: 300px;
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+}
+#contact a.about:hover{
+    color: black;
+    background-color: white;
+}
+#about-us{
+    margin: 30px 0;
+    text-align: center;
+}
+.image img.pic1,.pic2{
+    width: 49%;
+    display: inline;
+}
+#about-us h1.heading{
+    font-family:cursive;
+    font-size: 50px;
+    text-transform:uppercase;
+    text-decoration: underline;
+    margin: 10px auto;
+}
+#about-us p.about{
+    font-size: 14px;
+    width: 600px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
